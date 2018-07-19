@@ -1,0 +1,29 @@
+Jul 19 11:27:38.164 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 19 11:27:38.165 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 23957.
+Jul 19 11:27:38.647 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 19 11:27:38.648 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\amousavi\GNS3\projects\BGP\project-files\dynamips 
+Jul 19 11:27:38.648 GENERAL: working_dir=C:\Users\amousavi\GNS3\projects\BGP\project-files\dynamips
+Jul 19 11:27:38.648 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\amousavi\GNS3\projects\BGP\project-files\dynamips\a23305a9-c5a8-42ce-a2f5-b81788ddabf9 
+Jul 19 11:27:38.648 GENERAL: working_dir=C:\Users\amousavi\GNS3\projects\BGP\project-files\dynamips\a23305a9-c5a8-42ce-a2f5-b81788ddabf9
+Jul 19 11:27:38.649 HYPERVISOR: exec_cmd: vm create R9 9 c3725 
+Jul 19 11:27:38.651 VM: VM R9 created.
+Jul 19 11:27:38.652 HYPERVISOR: exec_cmd: vm set_con_tcp_port R9 5008 
+Jul 19 11:27:38.652 HYPERVISOR: exec_cmd: c3725 get_mac_addr R9 
+Jul 19 11:27:38.652 HYPERVISOR: exec_cmd: vm set_disk0 R9 0 
+Jul 19 11:27:38.652 HYPERVISOR: exec_cmd: vm set_exec_area R9 64 
+Jul 19 11:27:38.653 HYPERVISOR: exec_cmd: vm get_status R9 
+Jul 19 11:27:38.653 HYPERVISOR: exec_cmd: vm set_idle_pc R9 0x60bf8ba0 
+Jul 19 11:27:38.654 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/amousavi/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jul 19 11:27:38.654 HYPERVISOR: exec_cmd: c3725 set_mac_addr R9 c209.3aa8.0000 
+Jul 19 11:27:38.654 HYPERVISOR: exec_cmd: vm set_nvram R9 256 
+Jul 19 11:27:38.655 HYPERVISOR: exec_cmd: vm get_status R9 
+Jul 19 11:27:38.655 HYPERVISOR: exec_cmd: vm slot_add_binding R9 1 0 NM-1FE-TX 
+Jul 19 11:27:38.655 HYPERVISOR: exec_cmd: vm get_status R9 
+Jul 19 11:27:38.656 HYPERVISOR: exec_cmd: vm slot_add_binding R9 2 0 NM-1FE-TX 
+Jul 19 11:27:38.656 HYPERVISOR: exec_cmd: vm slot_add_binding R9 0 16 WIC-1T 
+Jul 19 11:27:46.676 HYPERVISOR: exec_cmd: nio create_udp udp-414edbe1-d388-449b-9ed6-2aca2fb8e42b 10040 127.0.0.1 10041 
+Jul 19 11:27:47.231 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 0 1 udp-414edbe1-d388-449b-9ed6-2aca2fb8e42b 
+Jul 19 11:27:47.231 HYPERVISOR: exec_cmd: vm get_status R9 
+Jul 19 11:27:47.292 HYPERVISOR: exec_cmd: nio create_udp udp-325e7cd1-281c-412b-925f-05fbcc05de39 10044 127.0.0.1 10045 
+Jul 19 11:27:47.295 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 0 0 udp-325e7cd1-281c-412b-925f-05fbcc05de39 
+Jul 19 11:27:47.296 HYPERVISOR: exec_cmd: vm get_status R9 
